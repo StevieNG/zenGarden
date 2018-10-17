@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400');
+
+
+.page-wrapper{
+    
+    margin:0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #6b6161;
+
+}
+header{
+    margin: 0 0 0 0;
+    padding: 50px;
+    text-align: center;   /*place holder for photo background*/
+    color: white;
+
+     background-image: url(../img/huntington.png) ;
+     background-size: 100%;
+     background-repeat: no-repeat;
+
+    
+    background-color: rgb(2, 20, 2);
+}
+h1{
+    font-family: 'IBM Plex Mono', monospace;;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-shadow: 4px 4px #10443d;
+
+}
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    font-size: 15px;
+    font-family: 'Satisfy', cursive;
+    font-style: italic; 
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a{
+    color: darkgreen;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+
+color: grey;
+text-decoration: underline;
+
+}
+p{
+    margin: 10px 80px;
+    line-height: 1.5;
+    
+    
+}
+
+h3{
+    margin: 50px 80px 10px;
+    font-family: Roboto;
+}
+
+.summary a:hover{
+
+    visibility: visible;
+}
+
+.participation, .benefits{
+
+    
+    color: antiquewhite;
+    background: url(../img/bamboo.png) #83ad93;
+    background-attachment: scroll, scroll, fixed;
+    background-size: auto, auto, cover;
+    padding: 20px 0 20px 0;
+    
+}
+.participation h3, .benefits h3{
+    color: #4c4545;
+    margin: 0px 80px 5px;
+
+}
+
+.participation a, .benefits a{
+
+    color: #4c4545;
+    font-weight: initial;
+}
+
+
+
+[role ="contentinfo"]{
+    margin:  0 0 0 0 ;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #74a083;
+    color: rgb(104, 98, 98);
+}
+
+[role ="contentinfo"] a{
+    font-size: 20px;
+font-family: Satisfy;
+font-weight: 100;
+    color: white;
+}
+
+[role ="contentinfo"] a:hover{
+   text-decoration: underline;
+color: rgb(196, 191, 191);
+}
+
+footer{
+    padding: 5px 20px 0px 20px ;
+text-align: center;
+    background-color: rgb(20, 68, 54);
+    
+
+}
+
+footer a{
+
+    padding: 0 15px;
+    font-size: 30px;
+color: aliceblue;
+
+}
+
+footer a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.sidebar{
+
+    background: url(../img/bamboo.png) #83ad93;
+   margin:0;
+    
+ 
+  
+    
+}
+
+
+
+.sidebar h3{
+    display: none;
+}
+
+
+.design-selection{
+
+color: black;
+line-height: 0;
+margin-top:-16px;
+
+
+}
+
+.design-selection ul{
+    margin-top: 10px;
+    padding-top: 20px;
+    
+
+}
+
+
+.design-name {
+    color: black;
+    font-weight: bold;
+
+}
+.designer-name{
+    color: #94998d;
+}
+
+
+
+ul{
+text-align: center;
+list-style-type: none;
+line-height: 2;
+
+
+}
+.design-selection li{
+   width: 50%;
+   float: left;
+   list-style-type: none;
+   border:solid gray;
+   border-width: 0.5px 0;
+   padding: 20px 0 20px 0;
+}
+
+[role="navigation"] ul{
+
+   
+    padding:0;
+    
+
+
+    
+}
+
+
+[role="navigation"] li{
+background-color: rgb(205, 211, 211);}
+
+.design-archives{
+    margin: 0px;
+
+    display: initial;
+    
+
+}
+
+
+
+    .design-archives li{
+        width: 50%;
+   float: left;
+   padding:20px 0;
+    }
+
+
+    .design-archives a{
+
+        color:gray;
+    }
+
+
+.zen-resources ul{
+        padding:10px;
+        column-count: 2;
+         }
+
+.zen-resources a{
+font-size: 70%;
+color: #2f503a;
+
+}         
