@@ -44,23 +44,21 @@ h2 {
 }
 
 a{
-    color: darkgreen;
-    
+    color: darkgreen;    
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover{
 
-color: grey;
+a:hover{
+color: rgb(231, 229, 229);
 text-decoration: underline;
 
 }
-p{
-    margin: 10px 80px;
-    line-height: 1.5;
-    
-    
+
+
+p{    margin: 10px 80px;
+    line-height: 1.5;  
 }
 
 h3{
@@ -69,8 +67,8 @@ h3{
 }
 
 .summary a:hover{
-
-    visibility: visible;
+    background-color: rgb(58, 185, 185);
+   
 }
 
 .participation, .benefits{
@@ -88,12 +86,13 @@ h3{
     margin: 0px 80px 5px;
 
 }
-
 .participation a, .benefits a{
 
     color: #4c4545;
-    font-weight: initial;
+    font-weight: 200;
 }
+.participation a:hover, .benefits a:hover{
+    color:whitesmoke;
 
 
 
@@ -139,56 +138,34 @@ footer a:hover{
 }
 
 .sidebar{
-
-    background: url(bamboo.png) #83ad93;
-   margin:0;
-    
- 
-  
-    
+background: url(bamboo.png) #83ad93;
+margin:0;
 }
-
-
 
 .sidebar h3{
     display: none;
 }
-
-
 .design-selection{
-
 color: black;
 line-height: 0;
 margin-top:-16px;
-
-
 }
 
 .design-selection ul{
     margin-top: 10px;
     padding-top: 20px;
-    
-
 }
-
-
 .design-name {
     color: black;
     font-weight: bold;
-
 }
 .designer-name{
     color: #94998d;
 }
-
-
-
 ul{
 text-align: center;
 list-style-type: none;
 line-height: 2;
-
-
 }
 .design-selection li{
    width: 50%;
@@ -203,33 +180,22 @@ line-height: 2;
     padding:0;
 }
 
-
 [role="navigation"] li{
 background-color: rgb(205, 211, 211);}
 
 .design-archives{
     margin: 0px;
-
     display: initial;
-    
-
+}
+.design-archives li{
+    width: 50%;
+    float: left;
+    padding:20px 0;
 }
 
-
-
-    .design-archives li{
-        width: 50%;
-   float: left;
-   padding:20px 0;
-    }
-
-
-    .design-archives a{
-
+.design-archives a{
         color:gray;
     }
-
-
 .zen-resources ul{
         padding:10px;
         column-count: 2;
