@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400');
 
-
 .page-wrapper{
     margin:0;
     font-family: 'Roboto';
@@ -40,7 +39,7 @@ h2 {
   
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 300px;
 }
 
 a{
@@ -51,7 +50,7 @@ a{
 
 
 a:hover{
-color: rgb(231, 229, 229);
+color: rgb(70, 75, 72);
 text-decoration: underline;
 
 }
@@ -67,35 +66,27 @@ h3{
 }
 
 .summary a:hover{
-    background-color: rgb(58, 185, 185);
-   
+    background-color: rgb(199, 214, 214);
 }
 
 .participation, .benefits{
-
-    
     color: antiquewhite;
     background: url(bamboo.png) #83ad93;
     background-attachment: scroll, scroll, fixed;
     background-size: auto, auto, cover;
-    padding: 20px 0 20px 0;
-    
+    padding: 20px 0 20px 0; 
 }
 .participation h3, .benefits h3{
     color: #4c4545;
     margin: 0px 80px 5px;
-
 }
 .participation a, .benefits a{
-
     color: #4c4545;
     font-weight: 200;
 }
 .participation a:hover, .benefits a:hover{
-    color:whitesmoke;}
-
-
-
+    color:whitesmoke;
+}
 [role ="contentinfo"]{
     margin:  0 0 0 0 ;
     padding: 20px 0;
@@ -118,23 +109,21 @@ color: rgb(196, 191, 191);
 
 footer{
     padding: 5px 20px 0px 20px ;
-text-align: center;
+    text-align: center;
     background-color: rgb(20, 68, 54);
-    
 
 }
 
 footer a{
-
     padding: 0 15px;
     font-size: 30px;
-color: aliceblue;
-
+    color: aliceblue;
 }
 
 footer a:hover{
     color: grey;
     text-decoration: none;
+   
 }
 
 .sidebar{
@@ -156,7 +145,7 @@ margin-top:-16px;
     padding-top: 20px;
 }
 .design-name {
-    color: black;
+    color: rgb(104, 94, 94);
     font-weight: bold;
 }
 .designer-name{
@@ -185,11 +174,12 @@ background-color: rgb(205, 211, 211);}
 
 .design-archives{
     margin: 0px;
-    display: initial;
+    display: initial;   
 }
 .design-archives li{
     width: 50%;
     float: left;
+    font-size: 90%;
     padding:20px 0;
 }
 
@@ -204,5 +194,4 @@ background-color: rgb(205, 211, 211);}
 .zen-resources a{
 font-size: 70%;
 color: #2f503a;
-
 }         
